@@ -49,7 +49,14 @@ document.onreadystatechange = () => {
             
                 xhr.onreadystatechange = function () {
                 if (xhr.readyState === 4 && xhr.status === 200) {
-                      console.log(xhr.responseText);
+                    if(xhr.responseText = 'exist') {
+                        document.getElementById("email-status").innerHTML = 'E-mail provider is in our blacklist. Enter another one.';
+                        document.getElementById("email-status").classList.remove("hidden");
+                      }else if(xhr.responseText = 'blacklist'){
+                          console.log(111);
+                        document.getElementById("email-status").innerHTML = 'E-mail already subscribed.';
+                        document.getElementById("email-status").classList.remove("hidden");
+                      }
                     }
                 };
 
