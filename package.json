@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/h5bp/html5-boilerplate.git"
+    "url": "git+https://github.com/rlazdins/magebit-entry"
   },
   "keywords": [
     "magebit",
@@ -17,9 +17,9 @@
   "author": "renars lazdins",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/h5bp/html5-boilerplate/issues"
+    "url": "https://github.com/rlazdins/magebit-entry/issues"
   },
-  "homepage": "https://github.com/h5bp/html5-boilerplate#readme",
+  "homepage": "https://github.com/rlazdins/magebit-entry#readme",
   "dependencies": {
     "normalize.css": "^8.0.1"
   }
