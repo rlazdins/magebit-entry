@@ -50,7 +50,7 @@ document.onreadystatechange = () => {
                 xhr.onreadystatechange = function () {
                 if (xhr.readyState === 4 && xhr.status === 200) {
                     if(xhr.responseText = 'exist') {
-                        document.getElementById("email-status").innerHTML = 'E-mail provider is in our blacklist. Enter another one.';
+                        document.getElementById("email-status").innerHTML = 'Enter another one. E-mail provider is in our blacklist.';
                         document.getElementById("email-status").classList.remove("hidden");
                       }else if(xhr.responseText = 'blacklist'){
                           console.log(111);
